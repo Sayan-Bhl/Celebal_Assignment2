@@ -18,7 +18,7 @@ const CartItem = (props) => {
                             <h5 className="card-title">{cartItem.title}</h5>
                             <p className="card-text">{cartItem.description}</p>
                             <p className="card-text"><b>Price:</b> ${cartItem.price}</p>
-                            <a className="btn btn-primary" onClick={handleClick}>Remove</a>
+                            <a href='#' className="btn btn-primary" onClick={handleClick}>Remove</a>
                         </div>
                     </div>
                 </div>

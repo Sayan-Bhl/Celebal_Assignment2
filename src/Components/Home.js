@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from 'react'
+import React, { useContext, useEffect } from 'react'
 import Item from './Item'
 import ItemContext from '../Context/ItemContext'
 const Home = () => {
@@ -6,6 +6,7 @@ const Home = () => {
   const { items, allProducts } = contextItem;
   useEffect(() => {
     allProducts();
+    // eslint-disable-next-line
   }, [])
   return (
     <div>

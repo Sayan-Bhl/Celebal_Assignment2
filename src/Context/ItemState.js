@@ -6,6 +6,7 @@ const ItemState = (props) => {
     const [cartItems, setCartItems] = useState([]);
     const [totalPrice, setTotalPrice] = useState(0);
     const [count, setCount] = useState(0);
+    
     const allProducts = async () => {
         const fetchres = await fetch(`${host}/products`);
         const parseData = await fetchres.json();
