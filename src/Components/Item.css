@@ -1,0 +1,10 @@
+.main{
+    width: 18rem;
+    margin: 20px;
+    border:1px black solid;
+}
+.img-size{
+    width: auto;
+    height: 300px;
+    padding: 20px;
+}

@@ -1,0 +1,11 @@
+
+.main-cart{
+    padding: 10px;
+    max-width: 1000px;
+    border: 1px black solid;
+}
+.img-cart{
+    height: 250px;
+    width: auto;
+    padding: 20px;
+}
